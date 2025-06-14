@@ -1,20 +1,23 @@
 {
   "name": "readme-genie",
   "version": "1.0.0",
+  "description": "📄 Generate beautiful, intelligent READMEs automatically from your project codebase.",
   "bin": {
-    "readme-genie": "./index.js"
+    "readme-genie": "./bin/cli.js"
   },
   "type": "module",
+  "main": "src/generate.js",
   "keywords": [
     "readme",
+    "automation",
     "cli",
     "documentation",
-    "automation"
+    "developer-experience"
   ],
+  "author": "Radhika Bhoyar",
+  "license": "MIT",
   "dependencies": {
-    "@babel/parser": "^7.27.5",
-    "@babel/traverse": "^7.27.4",
-    "commander": "^14.0.0",
-    "globby": "^14.1.0"
-  }
+    "globby": "^13.2.2",
+    "chalk": "^5.3.0" 
+   }
 }
