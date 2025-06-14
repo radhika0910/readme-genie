@@ -1,0 +1,20 @@
+{
+  "name": "readme-genie",
+  "version": "1.0.0",
+  "bin": {
+    "readme-genie": "./index.js"
+  },
+  "type": "module",
+  "keywords": [
+    "readme",
+    "cli",
+    "documentation",
+    "automation"
+  ],
+  "dependencies": {
+    "@babel/parser": "^7.27.5",
+    "@babel/traverse": "^7.27.4",
+    "commander": "^14.0.0",
+    "globby": "^14.1.0"
+  }
+}
